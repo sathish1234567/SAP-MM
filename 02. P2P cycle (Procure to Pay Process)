@@ -32,10 +32,25 @@ while requesting quotation, purchasing department set some dead line inorder to 
                                           --------------------------------------
 |                    after maintain the quotaions then what purchase department will do? so they have various vendors, 
             they know who can deliver it in which proce expected qty and quality. then purchase department select one vendor and they maintain other vendors as well.
+|                                                             |
                                                               |
-                                                              |
-                                          ________________________________________
+|                                          ________________________________________
                                           |          Decide the vendor           |<-- purcahse department pick the one vendor from the recieved list
-                                          ----------------------------------------
+|                                          ----------------------------------------
   incase if they need those vendors in future or if they are not satisfie with selected/decideded vendor. they reject it and goes with another vendor.
-                  Now purchase department has the vendor, they know the what material required/ and they know all required criteria.
+|                  Now purchase department has the vendor, they know the what material required/ and they know all required criteria.
+                         now purchase department will raise/request/place for purcse order(PO)
+                                                              |
+                                                              |
+                                          _________________________________________
+                                          |        Purchase order(PO)             |<---po raised from purchase department, and send to the vendor
+                                          -----------------------------------------
+          po is the legal document and send to vendor with the quality and aunatity and delivry date. when they want particular material.
+      once po send to the vendor. according to the po, vendor will send to the material to the company/plant with material qty.
+              once vendor send that goods and qty from vendor place and it reached to storage location(sloc) and
+                              company responsible person will raise the Goods Receipt(GR)-
+                                          _________________________________________
+                                          |        Purchase order(PO)             |<---po raised from purchase department, and send to the vendor
+                                          -----------------------------------------
+
+                          
