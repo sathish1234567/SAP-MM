@@ -77,4 +77,22 @@ M                                         ______________________________________
 Note: RFQ-->Maintain Quotaions -->Decide Vendor --> this is one time activity, so once for any perticular material, 
                                                     you know specific vendor then you will not perform perticular this activity .
 
-Suppose next time you will recieve the request for materials -->
+Suppose next time you will recieve the request for materials --> you wil not do the Flow RFQ -->Maintain Quotaions --> Decide vendor again, this is the one time configuration only.
+
+Propcurment Cycle flow --
+      Determination of Material  Requirement
+                      |
+                      |
+          Purchase Requisition
+                      |
+                    RFQ
+                      |
+                Maintain Quotes
+                      |
+                Decide Vendor
+                      |
+                     PO
+                      |
+                      GR( Goods Recipets) -101 - create 102 cancel- movement types.
+                      |
+                      IR( Invoice Reciepts )
