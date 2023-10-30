@@ -40,19 +40,19 @@ while requesting quotation, purchasing department set some dead line inorder to 
   incase if they need those vendors in future or if they are not satisfie with selected/decideded vendor. they reject it and goes with another vendor.
 |                  Now purchase department has the vendor, they know the what material required/ and they know all required criteria.
                          now purchase department will raise/request/place for purcse order(PO)
+|                                                             |
                                                               |
-                                                              |
-                                          _________________________________________
+|                                          _________________________________________
                                           |        Purchase order(PO)             |<---po raised from purchase department, and send to the vendor
-                                          -----------------------------------------
+|                                          -----------------------------------------
           po is the legal document and send to vendor with the quality and aunatity and delivry date. when they want particular material.
-      once po send to the vendor. according to the po, vendor will send to the material to the company/plant with material qty.
+|      once po send to the vendor. according to the po, vendor will send to the material to the company/plant with material qty.
               once vendor send that goods and qty from vendor place and it reached to storage location(sloc) and
-                              company responsible person will raise the Goods Receipt(GR)-
+|                             company responsible person will raise the Goods Receipt(GR)-
                                                               |
-                                                              |
+|                                                              |
                                           _________________________________________
-                                          |        Goods Receipt(GR)             |<---once recieve the goods from vendor, 
+------------------------------------------|        Goods Receipt(GR)             |<---once recieve the goods from vendor, 
                                           ----------------------------------------- responsible person of the company will raise the GR
                                           Goods Receipt about stock and material
                             once goods receipt done and they procide with invoice receipt 
@@ -60,7 +60,21 @@ while requesting quotation, purchasing department set some dead line inorder to 
                                                               |
                                                               |
                                           ___________________________________________
-                                          |        Invoice Reciepts                 |<-- invoice receipts
-                                          -------------------------------------------
+-----------------------------------------|        Invoice Reciepts                 |<-- invoice receipts is relvent to the all financial terms(FI Team)
+F                                        -------------------------------------------
+I                in this IR( Invoice Receipts ) they mentioned terms how much payment is due to vendor and what taxes included in it all details
+T           so, now once invoice receipt is done then invoice processing and vendor payments wil performed.
+E                                                             |
+A                                                             |
+M                                         ___________________________________________
+|                                         |    Invoice Processing and Vendor        |
+|-----------------------------------------|              payments                   |<-- invoice processing in vendor payments are not part 
+                                          ------------------------------------------- of the procurement team and logistic team and it is handled by FI team
 
                           
+
+
+Note: RFQ-->Maintain Quotaions -->Decide Vendor --> this is one time activity, so once for any perticular material, 
+                                                    you know specific vendor then you will not perform perticular this activity .
+
+Suppose next time you will recieve the request for materials -->
