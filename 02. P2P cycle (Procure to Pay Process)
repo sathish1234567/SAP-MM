@@ -14,3 +14,19 @@ if any material requirement raises(any other department )  ----> particular depa
                             once the purchasing department recieves the requirment from any other department 
                           then what purchasing department do? inorder to full fill the material/service requirement
     they required who can provide the material/service, they(Purchase dept) start the requesting or fid out who can give that material with expected qty/quality with cheap rate
+                                next purchase department will do, ask for quotaion from various vendors/suppliers
+                                           Quotaion means RFQ( request for Quotaion )
+while requesting quotation, purchasing department set some dead line inorder to recieve the quotaions on time depending upon materialurgency and service.
+                                                              |
+                                                              |
+                                            ______________________________
+                                            |RFQ( Request For Quotaion ) | <-- vendors/suppliers send RFQ to Purchase department
+                                            ------------------------------
+                    once recieve the quotaions from different vendors, purchase department might ask for sample products inorder to check the quality.
+                then proce and quality factor they finalized the vendor, before that they maintain all the quotaions in system/paer they recieved quotations.
+                                        maintaing quotaions it is called as Maintain Quotaions.
+                                                              |
+                                                              |
+                                          _____________________________________
+                                          |         Maintain Quotaions         | <--- Purchase department maintain in records about all the quotaions.
+                                          --------------------------------------
