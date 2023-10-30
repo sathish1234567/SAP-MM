@@ -49,8 +49,18 @@ while requesting quotation, purchasing department set some dead line inorder to 
       once po send to the vendor. according to the po, vendor will send to the material to the company/plant with material qty.
               once vendor send that goods and qty from vendor place and it reached to storage location(sloc) and
                               company responsible person will raise the Goods Receipt(GR)-
+                                                              |
+                                                              |
                                           _________________________________________
-                                          |        Purchase order(PO)             |<---po raised from purchase department, and send to the vendor
-                                          -----------------------------------------
+                                          |        Goods Receipt(GR)             |<---once recieve the goods from vendor, 
+                                          ----------------------------------------- responsible person of the company will raise the GR
+                                          Goods Receipt about stock and material
+                            once goods receipt done and they procide with invoice receipt 
+                                invoice receipt is relavent to the all financial terms
+                                                              |
+                                                              |
+                                          ___________________________________________
+                                          |        Invoice Reciepts                 |<-- invoice receipts
+                                          -------------------------------------------
 
                           
