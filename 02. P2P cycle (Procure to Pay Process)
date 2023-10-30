@@ -9,24 +9,33 @@ if any material requirement raises(any other department )  ----> particular depa
                                                               |
                                                               |
                                             ________________________________________
-                                            |Purchase Requisition(Internal Document)|<-- recieve to purchase department
+|-------------------------------------------|Purchase Requisition(Internal Document)|<-- recieve to purchase department
                                             -----------------------------------------
                             once the purchasing department recieves the requirment from any other department 
-                          then what purchasing department do? inorder to full fill the material/service requirement
+|                         then what purchasing department do? inorder to full fill the material/service requirement
     they required who can provide the material/service, they(Purchase dept) start the requesting or fid out who can give that material with expected qty/quality with cheap rate
                                 next purchase department will do, ask for quotaion from various vendors/suppliers
-                                           Quotaion means RFQ( request for Quotaion )
+|                                          Quotaion means RFQ( request for Quotaion )
 while requesting quotation, purchasing department set some dead line inorder to recieve the quotaions on time depending upon materialurgency and service.
                                                               |
-                                                              |
+|                                                             |
                                             ______________________________
-                                            |RFQ( Request For Quotaion ) | <-- vendors/suppliers send RFQ to Purchase department
+|                                          |RFQ( Request For Quotaion ) | <-- vendors/suppliers send RFQ to Purchase department
                                             ------------------------------
-                    once recieve the quotaions from different vendors, purchase department might ask for sample products inorder to check the quality.
+|                   once recieve the quotaions from different vendors, purchase department might ask for sample products inorder to check the quality.
                 then proce and quality factor they finalized the vendor, before that they maintain all the quotaions in system/paer they recieved quotations.
-                                        maintaing quotaions it is called as Maintain Quotaions.
+|                                       maintaing quotaions it is called as Maintain Quotaions.
                                                               |
-                                                              |
+|                                                             |
                                           _____________________________________
-                                          |         Maintain Quotaions         | <--- Purchase department maintain in records about all the quotaions.
+|                                          |         Maintain Quotaions         | <--- Purchase department maintain in records about all the quotaions.
                                           --------------------------------------
+|                    after maintain the quotaions then what purchase department will do? so they have various vendors, 
+            they know who can deliver it in which proce expected qty and quality. then purchase department select one vendor and they maintain other vendors as well.
+                                                              |
+                                                              |
+                                          ________________________________________
+                                          |          Decide the vendor           |<-- purcahse department pick the one vendor from the recieved list
+                                          ----------------------------------------
+  incase if they need those vendors in future or if they are not satisfie with selected/decideded vendor. they reject it and goes with another vendor.
+                  Now purchase department has the vendor, they know the what material required/ and they know all required criteria.
