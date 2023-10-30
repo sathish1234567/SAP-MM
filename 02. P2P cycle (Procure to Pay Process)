@@ -1,6 +1,6 @@
 -- P2P sycle is the backbone of SAP MM
 
-if any material requirement raises  ----> particular department determine the material requirement --> 
+if any material requirement raises(any other department )  ----> particular department determine the material requirement --> 
                                                               |
                                 they try to approach to the responsible department who can buy this particular material/service
                                               so they approach to responsible department Logistics/Procurement
