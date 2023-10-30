@@ -1,3 +1,5 @@
+
+SAP Tutorials -Santosh- SAP MM
 -- P2P sycle is the backbone of SAP MM
 
 if any material requirement raises(any other department )  ----> particular department determine the material requirement --> 
@@ -79,13 +81,15 @@ Note: RFQ-->Maintain Quotaions -->Decide Vendor --> this is one time activity, s
 
 Suppose next time you will recieve the request for materials --> you wil not do the Flow RFQ -->Maintain Quotaions --> Decide vendor again, this is the one time configuration only.
 
-Propcurment Cycle flow --
+Propcurment/P2P Cycle flow --
       Determination of Material  Requirement
-                      |
+                      |- when you try to decide the requirement, create material master data, in HANA you have perform activity Material Ledger as well.
                       |
           Purchase Requisition
-                      |
+                      |-after PR, you have to select the PR approval on various document types. to idenitifie the PR belongs to sub contract/in pipe line/Standard purchase
+                      |  depending upon request you will decide what document type, this PR should select
                     RFQ
+                      |  - once request for quotaions 
                       |
                 Maintain Quotes
                       |
