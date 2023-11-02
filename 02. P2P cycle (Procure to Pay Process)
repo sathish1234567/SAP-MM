@@ -82,22 +82,27 @@ Note: RFQ-->Maintain Quotaions -->Decide Vendor --> this is one time activity, s
 Suppose next time you will recieve the request for materials --> you wil not do the Flow RFQ -->Maintain Quotaions --> Decide vendor again, this is the one time configuration only.
 
 Propcurment/P2P Cycle flow --
-      Determination of Material  Requirement
+      Determination of Material  Requirement(Material Master/Material Ledger)
                       |- when you try to decide the requirement, create material master data, in HANA you have perform activity Material Ledger as well.
                       |
-          Purchase Requisition
+          Purchase Requisition(PR Approval/Document Types)
                       |-after PR, you have to select the PR approval on various document types. to idenitifie the PR belongs to sub contract/in pipe line/Standard purchase
                       |  depending upon request you will decide what document type, this PR should select
-                    RFQ
-                      |  - once request for quotaions 
+                    RFQ(Vendor Data/Number Ranges)
+                      |  - once request for quotaions, you get the vendor data and accordingly you maintain the number ranges
                       |
                 Maintain Quotes
                       |
                 Decide Vendor
                       |
-                     PO
+                      |->  maintain the various master data/tolerance limits, tax
+                     PO( before performing the PO, pricing prodedures/printing of those POs/WorkFlows, 
+                      | in case you have any contract and agreement with that vendor you have to maintain that as well
+                      |
+                      | - approving the purchase requisitions/ different business process/ process design(STO/Special Procurement scenario)
+                      |    posting period variants, before performing goods receipts 
                       |
                       GR( Goods Recipets) -101 - create 102 cancel- movement types.
                       |
                       IR( Invoice Reciepts )
-9:00
+10:00
