@@ -1,0 +1,18 @@
+PR Creation : Me51N- Creste/ ME52N- Change/ME53N- Display
+
+Path : SAP MENU-->LOGISTICS -->MM -->Purchasing -->Purchase Requisition(PR)
+
+PR- Order type is NB
+Header Data: Maintain the Header data with any description
+
+Item Data: 
+Provide below details:
+Material No: 100000001
+Quantity: 10 (Requirement determination)
+Unit: EA
+Delivery Date: 01/12/2023(When I want to this materials)
+Material Group : 01
+Plant: 0001
+Storage Loc: 0001
+Purchasing grp: 001(Who is responsible for purchasing grp)
+Requisitioner : (Who is requesting the materials/ provide user id and name depends on config)
